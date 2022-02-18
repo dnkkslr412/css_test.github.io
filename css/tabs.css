@@ -1,0 +1,17 @@
+.tab-basic {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.tab-basic li {
+    width: 25%;
+}
+.tab-basic li a {
+    border-radius: 0px;
+    margin: 0px;
+    color: #555555;
+}
+.tab-basic > li.active > a,
+.tab-basic > li.active > a:hover,
+.tab-basic > li.active > a:focus {
+    border-color: #ddd;
+}
